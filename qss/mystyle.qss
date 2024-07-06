@@ -1,0 +1,132 @@
+
+
+QWidget#widgetRight QLabel,QPushButton{
+    font-family:Microsoft YaHei;
+    color:white;
+}
+
+QWidget#widgetRight QLabel[round="true"]{
+font-family:FontAwesome;
+}
+
+QPushButton{
+border:2px groove gray;
+border-radius:5px;
+padding:2px 10px;
+color:white;
+min-height:20px;
+}
+
+QPushButton:hover{
+background-color:rgb(255,255,255,25%);
+border-style:solid;
+}
+QPushButton:pressed{
+background-color:rgb(0,0,0,30%);
+border-style: inset;
+}
+QPushButton:!enabled{
+color:rgb(180,180,180);
+border-style: inset;
+}
+
+QLineEdit{
+border-radius:5px;
+padding:2px 3px;
+font-size:11pt;
+}
+
+QGroupBox{
+color:white;
+border-width:1px;
+border-style:solid;
+border-radius: 5px;
+border-color:white;
+margin-top:5px;
+font-size:10pt
+}
+QGroupBox::title{
+subcontrol-origin:margin;
+subcontrol-position:top left;
+left:10px;
+margin-left:0px;
+
+}
+
+
+QMessageBox QPushButton{
+border:2px groove gray;
+border-style:groove;
+border-radius:5px;
+padding:2px 10px;
+color:black;
+}
+QMessageBox QPushButton:hover{
+background-color:rgb(255,255,255,25%);
+border-style:solid;
+}
+QMessageBox QPushButton:pressed{
+background-color:rgb(0,0,0,30%);
+border-style: inset;
+}
+
+QPushButton[round="true"]{
+font-family:FontAwesome;
+border-radius:15px;
+}
+
+QTextEdit{
+font-size:11pt;
+}
+
+
+
+QRadioButton::indicator {
+    width: 17px;
+    height: 17px;
+}
+
+QRadioButton::indicator::unchecked {
+
+    image: url(:/image/radiobutton-unchecked.png);
+}
+
+QRadioButton::indicator::checked {
+    image: url(:/image/radiobutton-checked.png);
+}
+
+QRadioButton,QCheckBox{
+    color:white;
+}
+
+QCheckBox::indicator {
+    width: 30px;
+    height: 50px;
+}
+
+QCheckBox::indicator::unchecked {
+    image: url(:/image/checkbox_unchecked.png);
+}
+
+QCheckBox::indicator::checked {
+    image: url(:/image/checkbox_checked.png);
+}
+
+
+QComboBox{
+height:23px;
+width:100px;
+font-size:10pt;
+}
+
+QGroupBox[tt="true"]{
+border-width:0px;
+font-size:11pt;
+font-weight:500;
+}
+
+QGroupBox::title[tt="true"]{
+subcontrol-position:top center;
+left:-4px;
+}
+

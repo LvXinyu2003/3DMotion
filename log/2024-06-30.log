@@ -1,0 +1,15 @@
+2024-06-30 23:02:03 - [DEBUG] (main.cpp:37, int qMain(int, char**)): Hello
+2024-06-30 23:02:03 - [DEBUG] (main.cpp:38, int qMain(int, char**)): 当前时间是:  "23:02:03"
+2024-06-30 23:02:03 - [INFO ] (main.cpp:39, int qMain(int, char**)): "God bless you!"
+2024-06-30 23:03:22 - [DEBUG] (main.cpp:37, int qMain(int, char**)): Hello
+2024-06-30 23:03:22 - [DEBUG] (main.cpp:38, int qMain(int, char**)): 当前时间是:  "23:03:22"
+2024-06-30 23:03:22 - [INFO ] (main.cpp:39, int qMain(int, char**)): "God bless you!"
+2024-06-30 23:04:17 - [DEBUG] (main.cpp:37, int qMain(int, char**)): Hello
+2024-06-30 23:04:17 - [DEBUG] (main.cpp:38, int qMain(int, char**)): 当前时间是:  "23:04:17"
+2024-06-30 23:04:17 - [INFO ] (main.cpp:39, int qMain(int, char**)): "God bless you!"
+2024-06-30 23:06:00 - [DEBUG] (main.cpp:37, int qMain(int, char**)): Hello
+2024-06-30 23:06:00 - [DEBUG] (main.cpp:38, int qMain(int, char**)): 当前时间是:  "23:06:00"
+2024-06-30 23:06:00 - [INFO ] (main.cpp:39, int qMain(int, char**)): "God bless you!"
+2024-06-30 23:07:13 - [DEBUG] (main.cpp:37, int qMain(int, char**)): Hello
+2024-06-30 23:07:13 - [DEBUG] (main.cpp:38, int qMain(int, char**)): 当前时间是:  "23:07:13"
+2024-06-30 23:07:13 - [INFO ] (main.cpp:39, int qMain(int, char**)): "God bless you!"

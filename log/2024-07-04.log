@@ -1,0 +1,380 @@
+2024-07-04 16:54:27 - [DEBUG] (main.cpp:37, int qMain(int, char**)): Hello
+2024-07-04 16:54:27 - [DEBUG] (main.cpp:38, int qMain(int, char**)): 当前时间是:  "16:54:27"
+2024-07-04 16:54:27 - [INFO ] (main.cpp:39, int qMain(int, char**)): "God bless you!"
+2024-07-04 17:31:15 - [DEBUG] (main.cpp:37, int qMain(int, char**)): Hello
+2024-07-04 17:31:15 - [DEBUG] (main.cpp:38, int qMain(int, char**)): 当前时间是:  "17:31:15"
+2024-07-04 17:31:15 - [INFO ] (main.cpp:39, int qMain(int, char**)): "God bless you!"
+2024-07-04 17:36:48 - [DEBUG] (main.cpp:37, int qMain(int, char**)): Hello
+2024-07-04 17:36:48 - [DEBUG] (main.cpp:38, int qMain(int, char**)): 当前时间是:  "17:36:48"
+2024-07-04 17:36:48 - [INFO ] (main.cpp:39, int qMain(int, char**)): "God bless you!"
+2024-07-04 17:45:23 - [DEBUG] (main.cpp:37, int qMain(int, char**)): Hello
+2024-07-04 17:45:23 - [DEBUG] (main.cpp:38, int qMain(int, char**)): 当前时间是:  "17:45:23"
+2024-07-04 17:45:23 - [INFO ] (main.cpp:39, int qMain(int, char**)): "God bless you!"
+2024-07-04 17:47:51 - [DEBUG] (main.cpp:37, int qMain(int, char**)): Hello
+2024-07-04 17:47:51 - [DEBUG] (main.cpp:38, int qMain(int, char**)): 当前时间是:  "17:47:51"
+2024-07-04 17:47:51 - [INFO ] (main.cpp:39, int qMain(int, char**)): "God bless you!"
+2024-07-04 17:49:36 - [DEBUG] (main.cpp:37, int qMain(int, char**)): Hello
+2024-07-04 17:49:36 - [DEBUG] (main.cpp:38, int qMain(int, char**)): 当前时间是:  "17:49:36"
+2024-07-04 17:49:36 - [INFO ] (main.cpp:39, int qMain(int, char**)): "God bless you!"
+2024-07-04 17:51:20 - [DEBUG] (main.cpp:37, int qMain(int, char**)): Hello
+2024-07-04 17:51:20 - [DEBUG] (main.cpp:38, int qMain(int, char**)): 当前时间是:  "17:51:20"
+2024-07-04 17:51:20 - [INFO ] (main.cpp:39, int qMain(int, char**)): "God bless you!"
+2024-07-04 17:52:42 - [DEBUG] (main.cpp:37, int qMain(int, char**)): Hello
+2024-07-04 17:52:42 - [DEBUG] (main.cpp:38, int qMain(int, char**)): 当前时间是:  "17:52:42"
+2024-07-04 17:52:42 - [INFO ] (main.cpp:39, int qMain(int, char**)): "God bless you!"
+2024-07-04 17:54:43 - [DEBUG] (main.cpp:37, int qMain(int, char**)): Hello
+2024-07-04 17:54:43 - [DEBUG] (main.cpp:38, int qMain(int, char**)): 当前时间是:  "17:54:43"
+2024-07-04 17:54:43 - [INFO ] (main.cpp:39, int qMain(int, char**)): "God bless you!"
+2024-07-04 17:57:07 - [DEBUG] (main.cpp:37, int qMain(int, char**)): Hello
+2024-07-04 17:57:07 - [DEBUG] (main.cpp:38, int qMain(int, char**)): 当前时间是:  "17:57:07"
+2024-07-04 17:57:07 - [INFO ] (main.cpp:39, int qMain(int, char**)): "God bless you!"
+2024-07-04 17:58:03 - [DEBUG] (main.cpp:37, int qMain(int, char**)): Hello
+2024-07-04 17:58:03 - [DEBUG] (main.cpp:38, int qMain(int, char**)): 当前时间是:  "17:58:03"
+2024-07-04 17:58:03 - [INFO ] (main.cpp:39, int qMain(int, char**)): "God bless you!"
+2024-07-04 18:01:57 - [DEBUG] (main.cpp:37, int qMain(int, char**)): Hello
+2024-07-04 18:01:57 - [DEBUG] (main.cpp:38, int qMain(int, char**)): 当前时间是:  "18:01:57"
+2024-07-04 18:01:57 - [INFO ] (main.cpp:39, int qMain(int, char**)): "God bless you!"
+2024-07-04 18:02:49 - [DEBUG] (main.cpp:37, int qMain(int, char**)): Hello
+2024-07-04 18:02:49 - [DEBUG] (main.cpp:38, int qMain(int, char**)): 当前时间是:  "18:02:49"
+2024-07-04 18:02:49 - [INFO ] (main.cpp:39, int qMain(int, char**)): "God bless you!"
+2024-07-04 18:04:42 - [DEBUG] (main.cpp:37, int qMain(int, char**)): Hello
+2024-07-04 18:04:42 - [DEBUG] (main.cpp:38, int qMain(int, char**)): 当前时间是:  "18:04:42"
+2024-07-04 18:04:42 - [INFO ] (main.cpp:39, int qMain(int, char**)): "God bless you!"
+2024-07-04 18:07:38 - [DEBUG] (main.cpp:37, int qMain(int, char**)): Hello
+2024-07-04 18:07:38 - [DEBUG] (main.cpp:38, int qMain(int, char**)): 当前时间是:  "18:07:38"
+2024-07-04 18:07:38 - [INFO ] (main.cpp:39, int qMain(int, char**)): "God bless you!"
+2024-07-04 20:23:10 - [DEBUG] (main.cpp:37, int qMain(int, char**)): Hello
+2024-07-04 20:23:10 - [DEBUG] (main.cpp:38, int qMain(int, char**)): 当前时间是:  "20:23:10"
+2024-07-04 20:23:10 - [INFO ] (main.cpp:39, int qMain(int, char**)): "God bless you!"
+2024-07-04 20:23:20 - [DEBUG] (main.cpp:37, int qMain(int, char**)): Hello
+2024-07-04 20:23:20 - [DEBUG] (main.cpp:38, int qMain(int, char**)): 当前时间是:  "20:23:20"
+2024-07-04 20:23:20 - [INFO ] (main.cpp:39, int qMain(int, char**)): "God bless you!"
+2024-07-04 20:47:51 - [DEBUG] (main.cpp:37, int qMain(int, char**)): Hello
+2024-07-04 20:47:51 - [DEBUG] (main.cpp:38, int qMain(int, char**)): 当前时间是:  "20:47:51"
+2024-07-04 20:47:51 - [INFO ] (main.cpp:39, int qMain(int, char**)): "God bless you!"
+2024-07-04 22:34:49 - [DEBUG] (main.cpp:37, int qMain(int, char**)): Hello
+2024-07-04 22:34:49 - [DEBUG] (main.cpp:38, int qMain(int, char**)): 当前时间是:  "22:34:49"
+2024-07-04 22:34:49 - [INFO ] (main.cpp:39, int qMain(int, char**)): "God bless you!"
+2024-07-04 22:37:34 - [DEBUG] (main.cpp:37, int qMain(int, char**)): Hello
+2024-07-04 22:37:34 - [DEBUG] (main.cpp:38, int qMain(int, char**)): 当前时间是:  "22:37:34"
+2024-07-04 22:37:34 - [INFO ] (main.cpp:39, int qMain(int, char**)): "God bless you!"
+2024-07-04 22:37:37 - [DEBUG] (main.cpp:37, int qMain(int, char**)): Hello
+2024-07-04 22:37:37 - [DEBUG] (main.cpp:38, int qMain(int, char**)): 当前时间是:  "22:37:37"
+2024-07-04 22:37:37 - [INFO ] (main.cpp:39, int qMain(int, char**)): "God bless you!"
+2024-07-04 22:39:13 - [DEBUG] (main.cpp:37, int qMain(int, char**)): Hello
+2024-07-04 22:39:13 - [DEBUG] (main.cpp:38, int qMain(int, char**)): 当前时间是:  "22:39:13"
+2024-07-04 22:39:13 - [INFO ] (main.cpp:39, int qMain(int, char**)): "God bless you!"
+2024-07-04 22:40:21 - [DEBUG] (main.cpp:37, int qMain(int, char**)): Hello
+2024-07-04 22:40:21 - [DEBUG] (main.cpp:38, int qMain(int, char**)): 当前时间是:  "22:40:21"
+2024-07-04 22:40:21 - [INFO ] (main.cpp:39, int qMain(int, char**)): "God bless you!"
+2024-07-04 23:20:37 - [DEBUG] (main.cpp:37, int qMain(int, char**)): Hello
+2024-07-04 23:20:37 - [DEBUG] (main.cpp:38, int qMain(int, char**)): 当前时间是:  "23:20:37"
+2024-07-04 23:20:37 - [INFO ] (main.cpp:39, int qMain(int, char**)): "God bless you!"
+2024-07-04 23:21:45 - [DEBUG] (main.cpp:37, int qMain(int, char**)): Hello
+2024-07-04 23:21:45 - [DEBUG] (main.cpp:38, int qMain(int, char**)): 当前时间是:  "23:21:45"
+2024-07-04 23:21:45 - [INFO ] (main.cpp:39, int qMain(int, char**)): "God bless you!"
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:1955, void Dialog::display_slot_row(joyinfoex_tag)): z轴取消运动
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:1960, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:1963, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向取消运动
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 4 当前速度 320
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 4 当前速度 320
+2024-07-04 23:21:50 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:1955, void Dialog::display_slot_row(joyinfoex_tag)): z轴取消运动
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:1960, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:1963, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向取消运动
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 35 当前速度 860
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 35 当前速度 860
+2024-07-04 23:21:50 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 88 当前速度 1000
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 88 当前速度 1000
+2024-07-04 23:21:50 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:1955, void Dialog::display_slot_row(joyinfoex_tag)): z轴取消运动
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:1960, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:1963, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向取消运动
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 153 当前速度 1000
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 153 当前速度 1000
+2024-07-04 23:21:50 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 200 当前速度 1000
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 200 当前速度 1000
+2024-07-04 23:21:50 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:1955, void Dialog::display_slot_row(joyinfoex_tag)): z轴取消运动
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:1960, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:1963, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向取消运动
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 275 当前速度 1000
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 275 当前速度 1000
+2024-07-04 23:21:50 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 324 当前速度 1000
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 324 当前速度 1000
+2024-07-04 23:21:50 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:1955, void Dialog::display_slot_row(joyinfoex_tag)): z轴取消运动
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:1960, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:1963, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向取消运动
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 389 当前速度 1000
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 389 当前速度 1000
+2024-07-04 23:21:50 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:1955, void Dialog::display_slot_row(joyinfoex_tag)): z轴取消运动
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:1960, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向
+2024-07-04 23:21:50 - [INFO ] (dialog.cpp:1963, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向取消运动
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 442 当前速度 1000
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 442 当前速度 1000
+2024-07-04 23:21:51 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 502 当前速度 1000
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 502 当前速度 1000
+2024-07-04 23:21:51 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:1955, void Dialog::display_slot_row(joyinfoex_tag)): z轴取消运动
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:1960, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:1963, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向取消运动
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 573 当前速度 1000
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 573 当前速度 1000
+2024-07-04 23:21:51 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 633 当前速度 1000
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 633 当前速度 1000
+2024-07-04 23:21:51 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:1955, void Dialog::display_slot_row(joyinfoex_tag)): z轴取消运动
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:1960, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:1963, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向取消运动
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 692 当前速度 1000
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 692 当前速度 1000
+2024-07-04 23:21:51 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:1955, void Dialog::display_slot_row(joyinfoex_tag)): z轴取消运动
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:1960, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:1963, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向取消运动
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 758 当前速度 1000
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 758 当前速度 1000
+2024-07-04 23:21:51 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 806 当前速度 1000
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 806 当前速度 1000
+2024-07-04 23:21:51 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:1955, void Dialog::display_slot_row(joyinfoex_tag)): z轴取消运动
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:1960, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:1963, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向取消运动
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 890 当前速度 1000
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 890 当前速度 1000
+2024-07-04 23:21:51 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:1955, void Dialog::display_slot_row(joyinfoex_tag)): z轴取消运动
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:1960, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:1963, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向取消运动
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 961 当前速度 1000
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 961 当前速度 1000
+2024-07-04 23:21:51 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 1010 当前速度 1000
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 1010 当前速度 1000
+2024-07-04 23:21:51 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:1955, void Dialog::display_slot_row(joyinfoex_tag)): z轴取消运动
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:1960, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:1963, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向取消运动
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 1073 当前速度 1000
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 1073 当前速度 1000
+2024-07-04 23:21:51 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 1125 当前速度 1000
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 1125 当前速度 1000
+2024-07-04 23:21:51 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:1955, void Dialog::display_slot_row(joyinfoex_tag)): z轴取消运动
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:1960, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:1963, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向取消运动
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 1182 当前速度 1000
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 1182 当前速度 1000
+2024-07-04 23:21:51 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:1955, void Dialog::display_slot_row(joyinfoex_tag)): z轴取消运动
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:1960, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:1963, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向取消运动
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 1245 当前速度 1000
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 1245 当前速度 1000
+2024-07-04 23:21:51 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 1291 当前速度 1000
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 1291 当前速度 1000
+2024-07-04 23:21:51 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 1336 当前速度 1000
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 1336 当前速度 1000
+2024-07-04 23:21:51 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:1955, void Dialog::display_slot_row(joyinfoex_tag)): z轴取消运动
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:1960, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:1963, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向取消运动
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 1400 当前速度 1000
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 1400 当前速度 1000
+2024-07-04 23:21:51 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:51 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:1955, void Dialog::display_slot_row(joyinfoex_tag)): z轴取消运动
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:1960, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:1963, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向取消运动
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 1461 当前速度 1000
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 1461 当前速度 1000
+2024-07-04 23:21:52 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 1525 当前速度 1000
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 1525 当前速度 1000
+2024-07-04 23:21:52 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:1955, void Dialog::display_slot_row(joyinfoex_tag)): z轴取消运动
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:1960, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:1963, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向取消运动
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 1604 当前速度 1000
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 1604 当前速度 1000
+2024-07-04 23:21:52 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:1955, void Dialog::display_slot_row(joyinfoex_tag)): z轴取消运动
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:1960, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:1963, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向取消运动
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 1661 当前速度 1000
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 1661 当前速度 1000
+2024-07-04 23:21:52 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 1707 当前速度 1000
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 1707 当前速度 1000
+2024-07-04 23:21:52 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:1955, void Dialog::display_slot_row(joyinfoex_tag)): z轴取消运动
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:1960, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:1963, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向取消运动
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 1759 当前速度 1000
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 1759 当前速度 1000
+2024-07-04 23:21:52 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:862, virtual void Dialog::timerEvent(QTimerEvent*)): X轴 当前位置 0 当前速度 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 0 当前速度 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:864, virtual void Dialog::timerEvent(QTimerEvent*)): Y轴 当前位置 1805 当前速度 1000
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 1805 当前速度 1000
+2024-07-04 23:21:52 - [DEBUG] (dialog.cpp:845, virtual void Dialog::timerEvent(QTimerEvent*)): 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:866, virtual void Dialog::timerEvent(QTimerEvent*)): Z轴 当前位置 0 当前速度 0
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:1955, void Dialog::display_slot_row(joyinfoex_tag)): z轴取消运动
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:1960, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向
+2024-07-04 23:21:52 - [INFO ] (dialog.cpp:1963, void Dialog::display_slot_row(joyinfoex_tag)): y轴正向取消运动
