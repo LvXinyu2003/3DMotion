@@ -14,7 +14,7 @@
 
 # 开发环境
 - 操作系统：Windows 11
-- 开发IDE：Qt Creater
+- 开发IDE：Qt Creator
 - 编译套件：qt5.X MinGW 32bit
 - 
 # 注意事项
