@@ -611,6 +611,32 @@ Dialog::Dialog(QWidget *parent)
 
 
     status_in();//读取本地数据
+
+    //大模型相关
+    // 创建TCP套接字
+    m_socket = new QTcpSocket(this);
+
+    // 连接到服务器
+    connect(m_socket, &QTcpSocket::connected, this, &Dialog::onConnected);
+    connect(m_socket, &QTcpSocket::disconnected, this, &Dialog::onDisconnected);
+    connect(m_socket, &QTcpSocket::readyRead, this, &Dialog::onReadyRead);
+    m_socket->connectToHost("127.0.0.1", 12345); // 连接到本地服务器
+
+    // 初始化讯飞API
+    m_appId = "d790db02";
+    m_apiKey = "f43f78b7d6b02cf53ef9231bf351aac8";
+    m_apiSecret = "MThlOGZiMmJmNWUzNDI0OWQzMzJhZGU0";
+    m_accessToken = "";
+    m_expireTime = QDateTime();
+
+    // 获取访问令牌
+    getAccessToken();
+
+    // 发送聊天信息
+    connect(m_sendButton, &QPushButton::clicked, this, &Dialog::sendMessage);
+
+    // 处理@机器人事件
+    connect(m_textEdit, &QTextEdit::textChanged, this, &Dialog::onTextChange);
 }
 
 Dialog::~Dialog()
@@ -1924,77 +1950,77 @@ void Dialog::receiveshow()
 
 void Dialog::display_slot_row(joyinfoex_tag state_row)
 {
-    if(state_row.dwButtons & 0x01 << 0) {
-        bpqyunxing();
-        qInfo()<<"变频器运行";
-    }
+//     if(state_row.dwButtons & 0x01 << 0) {
+//         bpqyunxing();
+//         qInfo()<<"变频器运行";
+//     }
 
-    else if(state_row.dwButtons & 0x01 << 1) {
-        bpqtingzhi();
-        qInfo()<<"变频器停止";
-    }
+//     else if(state_row.dwButtons & 0x01 << 1) {
+//         bpqtingzhi();
+//         qInfo()<<"变频器停止";
+//     }
 
-    else if(state_row.dwButtons & 0x01 << 2) {
-        handcontrol_shoudongjiting();
-        qInfo()<<"手动急停";
-    }
+//     else if(state_row.dwButtons & 0x01 << 2) {
+//         handcontrol_shoudongjiting();
+//         qInfo()<<"手动急停";
+//     }
 
-    else if(state_row.dwButtons & 0x01 << 4) {
-        handcontrol_zplus();
-        qInfo()<<"z轴正向";
-    }
+//     else if(state_row.dwButtons & 0x01 << 4) {
+//         handcontrol_zplus();
+//         qInfo()<<"z轴正向";
+//     }
 
-    else if(state_row.dwButtons & 0x01 << 5) {
-        handcontrol_zsub();
-        qInfo()<<"z轴负向";
-    }
-    else
-    {
-        handcontrol_zsub_cancel();
-        handcontrol_zplus_cancel();
-       // qInfo()<<"z轴取消运动";
-    }
+//     else if(state_row.dwButtons & 0x01 << 5) {
+//         handcontrol_zsub();
+//         qInfo()<<"z轴负向";
+//     }
+//     else
+//     {
+//         handcontrol_zsub_cancel();
+//         handcontrol_zplus_cancel();
+//        // qInfo()<<"z轴取消运动";
+//     }
 
-    if(state_row.dwPOV == 0) {
-        handcontrol_yplus();
-        qInfo()<<"y轴正向";
-        if(state_row.dwPOV == 65535)
-            handcontrol_yplus_cancel();
-            qInfo()<<"y轴正向取消运动";
-    } else if(state_row.dwPOV == 9000) {
-        handcontrol_xplus();
-        qInfo()<<"x轴正向";
-    } else if(state_row.dwPOV == 18000) {
-        handcontrol_ysub();
-        qInfo()<<"y轴负向";
-    } else if(state_row.dwPOV == 27000) {
-        handcontrol_xsub();
-        qInfo()<<"x轴负向";
-    } else if(state_row.dwPOV == 4500) {
-        handcontrol_yplus();
-        handcontrol_xplus();
-        qInfo()<<"x，y轴正向";
-    } else if(state_row.dwPOV == 31500) {
-        handcontrol_xsub();
-        handcontrol_yplus();
-        qInfo()<<"x轴负向，y轴正向";
-    } else if(state_row.dwPOV == 13500) {
-        handcontrol_xplus();
-        handcontrol_ysub();
-        qInfo()<<"x轴正向，y轴负向";
-    } else if(state_row.dwPOV == 22500) {
-        handcontrol_ysub();
-        handcontrol_xsub();
-        qInfo()<<"x轴负向，y轴负向";
-    }
-    else
-    {
-        handcontrol_xplus_cancel();
-        handcontrol_yplus_cancel();
-        handcontrol_xsub_cancel();
-        handcontrol_ysub_cancel();
-        //qInfo()<<"x轴，y轴，运动取消";
-    }
+//     if(state_row.dwPOV == 0) {
+//         handcontrol_yplus();
+//         qInfo()<<"y轴正向";
+//         if(state_row.dwPOV == 65535)
+//             handcontrol_yplus_cancel();
+//             qInfo()<<"y轴正向取消运动";
+//     } else if(state_row.dwPOV == 9000) {
+//         handcontrol_xplus();
+//         qInfo()<<"x轴正向";
+//     } else if(state_row.dwPOV == 18000) {
+//         handcontrol_ysub();
+//         qInfo()<<"y轴负向";
+//     } else if(state_row.dwPOV == 27000) {
+//         handcontrol_xsub();
+//         qInfo()<<"x轴负向";
+//     } else if(state_row.dwPOV == 4500) {
+//         handcontrol_yplus();
+//         handcontrol_xplus();
+//         qInfo()<<"x，y轴正向";
+//     } else if(state_row.dwPOV == 31500) {
+//         handcontrol_xsub();
+//         handcontrol_yplus();
+//         qInfo()<<"x轴负向，y轴正向";
+//     } else if(state_row.dwPOV == 13500) {
+//         handcontrol_xplus();
+//         handcontrol_ysub();
+//         qInfo()<<"x轴正向，y轴负向";
+//     } else if(state_row.dwPOV == 22500) {
+//         handcontrol_ysub();
+//         handcontrol_xsub();
+//         qInfo()<<"x轴负向，y轴负向";
+//     }
+//     else
+//     {
+//         handcontrol_xplus_cancel();
+//         handcontrol_yplus_cancel();
+//         handcontrol_xsub_cancel();
+//         handcontrol_ysub_cancel();
+//         //qInfo()<<"x轴，y轴，运动取消";
+//     }
 }
 
 void Dialog::keyPressEvent(QKeyEvent* event) {
@@ -2056,153 +2082,157 @@ void Dialog::keyReleaseEvent(QKeyEvent *event) {
 
 void Dialog::on_pushButton_generate_clicked()
 {
-    ZAux_Direct_Rapidstop(g_handle,0);
-    //默认值
-    g_command[0]=0;
-    g_command[1]=0;//8.3默认G00
-    g_0full=0; g_1full=0; g_mode=90;//默认没有出现G90/G91,默认坐标移动为绝对值
-
-
-
-    m_aspeed=100.0;
-    xyz_pos[0]=0.0;//目标点
-    xyz_pos[1]=0.0;
-    xyz_pos[2]=0.0;
-
-    zhongduan_biaozhi=0;
-    hangshu=0;
-    jindutiao->setValue(0);
-    num_yiyongshijian->setText(QString::number(0));//已用时间
-    num_shengyushijian->setText(QString::number(0));//剩余时间
-    num_Gdaimazongshu->setText(QString::number(0));//显示当前文件行数
-
-    textedit_file->clear();
-    QString fileName, filePath,fileSuffix;
-    QFileInfo fileinfo;
-    QString fileFull = "C:/Users/Miguin/Desktop/3DMotion/tap/"; // 指定文件路径
-
-    //
+    // 提取问题
     QString tem_text = ui->lineEdit_voice->text();
-    int object = 0;
-    int length = 0;
-    int width = 0;
-    //语音指令解析与执行
-    QStringList keywords = {"爱心", "五角星", "圆形", "国旗", "华为"};
-    QString keywordPattern = "(?:" + keywords.join("|") + ")";
-    QRegularExpression keywordRegex(keywordPattern, QRegularExpression::CaseInsensitiveOption);
-    QRegularExpressionMatchIterator keywordMatches = keywordRegex.globalMatch(tem_text);
 
-    while (keywordMatches.hasNext()) {
-        QRegularExpressionMatch match = keywordMatches.next();
-        qDebug() << "Keyword: " << match.captured(0);
-        QString tem_str = match.captured(0);
-        if(tem_str == "爱心")
-        {
-            object = 1;
-        }
-        else if(tem_str == "五角星")
-        {
-            object = 2;
-        }
-        else if(tem_str == "圆形")
-        {
-            object = 3;
-        }
-        else if(tem_str == "三角形")
-        {
-            object = 4;
-        }
-        else if(tem_str == "长方形")
-        {
-            object = 5;
-        }
-    }
+    // 发送请求接收结果
+    QString tem_answer = getAnswer(tem_text);
 
-    // Find numbers using regular expression
-    QRegularExpression numberRegex("-?\\b\\d+\\b");
-    QRegularExpressionMatchIterator numberMatches = numberRegex.globalMatch(tem_text);
+    // 添加刀具参数
+    QString daoju_papameters = "T1M6\nG17\nG0Z10.000\nG0X0.000Y0.000S20000M3\nG0X-21.167Y-37.667Z10.000";
+    textedit_file->insertPlainText(daoju_papameters);
+    // 合成G代码并显示
+    textedit_file->insertPlainText(tem_answer);//追加放入文本框
 
-    while (numberMatches.hasNext()) {
-        QRegularExpressionMatch match = numberMatches.next();
-        qDebug() << "Number: " << match.captured(0);
-        length = match.captured(0).toInt();
-        width = length;
-    }
+}
 
-    switch(object)
+void Dialog::onConnected()
+{
+    qDebug() << "Connected to server";
+}
+
+void Dialog::onDisconnected()
+{
+    qDebug() << "Disconnected from server";
+}
+
+void Dialog::onReadyRead()
+{
+    QByteArray data = m_socket->readAll();
+    QString message = QString::fromUtf8(data);
+    m_textEdit->append(message);
+}
+
+void Dialog::getAccessToken()
+{
+    // 构造HTTP请求
+    QUrl url("https://spark-api-open.xf-yun.com/v1/chat/completions");
+    QNetworkRequest request(url);
+
+    // 设置请求头部为JSON格式
+    request.setHeader(QNetworkRequest::ContentTypeHeader, "application/json");
+
+    // 从成员变量获取API密钥和秘密
+    QString apiKey = m_apiKey;
+    QString apiSecret = m_apiSecret;
+
+    // 构建Bearer认证的头部，将API密钥和秘密以冒号分隔
+    QString bearerToken = QString("Bearer %1:%2").arg(apiKey).arg(apiSecret);
+
+    // 将Bearer Token设置为请求的Authorization头部
+    request.setRawHeader("Authorization", bearerToken.toUtf8());
+
+    // 发送HTTP请求
+    QNetworkAccessManager manager;
+    QNetworkReply* reply = manager.post(request, QString("grant_type=client_credentials&client_id=%1&client_secret=%2").arg(m_appId).arg(m_apiSecret).toUtf8());
+    QEventLoop loop;
+    connect(reply, &QNetworkReply::finished, &loop, &QEventLoop::quit);
+    loop.exec();
+
+    // 解析HTTP响应
+    if (reply->error() == QNetworkReply::NoError)
     {
-    case 1:
-    {
-        fileFull+="1";
-        break;
-    }
-    case 2:
-    {
-        fileFull+="2";
-        break;
-    }
-    case 3:
-    {
-        fileFull+="3";
-        break;
-    }
-    case 4:
-    {
-        fileFull+="4";
-        break;
-    }
-    case 5:
-    {
-        fileFull+="5";
-        break;
-    }
-
-    }
-    fileFull+=".txt";
-
-
-    //
-    QTest::qSleep (10000);
-
-    // 检查文件路径是否有效
-    if (!fileFull.isEmpty())
-    {
-        pushbutton_qidong->setEnabled(true);
-        pushbutton_zanting->setEnabled(true);
-        pushbutton_jixu->setEnabled(true);
-        pushbutton_zuobiaoqingling->setEnabled(true);
-        pushbutton_duidaodianhuifu->setEnabled(true);
-        QFile file(fileFull); // 通过文件路径来获取文件
-        if(!file.open(QFile::ReadOnly))
-        {
-            QMessageBox::warning(this, tr("Error"), tr("read file error:&1").arg(file.errorString()));
-            return;
-        }
-        QTextStream in(&file);
-
-        lineedit_file->setText(fileFull);
-
-        // 逐行读取文件并放入wen'ben'kuan文本框
-        QTextCodec *codec = QTextCodec::codecForName("UTF-8"); // 指定为GBK,因为file.readLine()无法读取中文
-        while (!file.atEnd())
-        {
-            // 读取一行文本数据
-            QByteArray line = file.readLine();
-            // 将读取到的行数据转换为Unicode
-            QString str = codec->toUnicode(line); // 文件每一行内容
-            // qDebug() << str;
-
-            textedit_file->insertPlainText(str); // 追加放入文本框②
-
-            hangshu++;
-        }
-        file.close();
-        num_Gdaimazongshu->setText(QString::number(hangshu)); // 显示当前文件行数
+        QByteArray responseData = reply->readAll();
+        QJsonDocument jsonDocument = QJsonDocument::fromJson(responseData);
+        m_accessToken = jsonDocument.object().value("access_token").toString();
+        int expiresIn = jsonDocument.object().value("expires_in").toInt();
+        m_expireTime = QDateTime::currentDateTime().addSecs(expiresIn);
     }
     else
     {
-        qDebug()<<"cancel";
-        fileFull="No file";
+        qDebug() << "Failed to get access token: " << reply->errorString();
+    }
+
+    // 释放HTTP响应
+    reply->deleteLater();
+}
+
+QString Dialog::getAnswer(const QString& question)
+{
+    // 检查访问令牌是否过期
+    if (QDateTime::currentDateTime() >= m_expireTime)
+    {
+        getAccessToken();
+    }
+
+    // 构造HTTP请求
+    QUrl url("https://spark-api-open.xf-yun.com/v1/chat/completions");
+    QNetworkRequest request(url);
+    request.setHeader(QNetworkRequest::ContentTypeHeader, "application/x-www-form-urlencoded");
+    request.setRawHeader("Authorization", QString("Bearer %1").arg(m_accessToken).toUtf8());
+
+    QJsonObject json;
+    json.insert("scene", "main");
+    json.insert("userid", "123456");
+    json.insert("auth_id", "123456");
+    json.insert("text", question);
+    QJsonDocument jsonDocument(json);
+    QByteArray postData = jsonDocument.toJson(QJsonDocument::Compact);
+
+    // 发送HTTP请求
+    QNetworkAccessManager manager;
+    QNetworkReply* reply = manager.post(request, postData);
+    QEventLoop loop;
+    connect(reply, &QNetworkReply::finished, &loop, &QEventLoop::quit);
+    loop.exec();
+
+    // 解析HTTP响应
+    QString answer;
+    if (reply->error() == QNetworkReply::NoError)
+    {
+        QByteArray responseData = reply->readAll();
+        QJsonDocument jsonDocument = QJsonDocument::fromJson(responseData);
+        QJsonObject jsonObject = jsonDocument.object();
+        if (jsonObject.contains("data"))
+        {
+            QJsonObject data = jsonObject.value("data").toObject();
+            QJsonArray answerArray = data.value("answer").toArray();
+            for (int i = 0; i < answerArray.size(); i++)
+            {
+                QJsonObject answerObject = answerArray.at(i).toObject();
+                if (answerObject.contains("text"))
+                {
+                    answer += answerObject.value("text").toString() + " ";
+                }
+            }
+        }
+    }
+    else
+    {
+        qDebug() << "Failed to get answer: " << reply->errorString();
+    }
+
+    // 释放HTTP响应
+    reply->deleteLater();
+
+    return answer.trimmed();
+}
+
+void Dialog::onTextChange()
+{
+    QString text = m_textEdit->toPlainText();
+    int index = text.lastIndexOf("@机器人");
+
+}
+
+void Dialog::sendMessage()
+{
+    QString message = m_lineEdit->text();
+    if (!message.isEmpty())
+    {
+        m_socket->write(message.toUtf8());
+        m_lineEdit->clear();
     }
 }
+
 

@@ -13,6 +13,11 @@
 #include "joy_thread.h"
 #include <QTest>
 
+#include <QtNetwork>
+#include <QJsonDocument>
+#include <QJsonObject>
+#include <QJsonArray>
+
 enum LABEL_LED_ZWX{
     label_led_jinjizhidong,//紧急制动
     label_led_menxianwei,
@@ -71,8 +76,28 @@ private:
     void status_in();//读取数据文件
     void status_out();//写入数据文件
 
+private slots:
+    void onConnected();
+    void onDisconnected();
+    void onReadyRead();
+    void onTextChange();
+    void sendMessage();
+    void getAccessToken();
+    QString getAnswer(const QString& question);
 
+public:
+    QTextEdit* m_textEdit;
+    QLineEdit* m_lineEdit;
+    QPushButton* m_sendButton;
+    QVBoxLayout* m_layout;
+    QTcpSocket* m_socket;
 
+    // 讯飞API相关信息
+    QString m_appId;
+    QString m_apiKey;
+    QString m_apiSecret;
+    QString m_accessToken;
+    QDateTime m_expireTime;
 
 private slots:
 
@@ -182,6 +207,130 @@ private:
     QGroupBox* groupbox_3D;
 
     bool lianjie_ok=0;
+
+    // // 讯飞API相关信息
+    // QString m_appId;
+    // QString m_apiKey;
+    // QString m_apiSecret;
+    // QString m_accessToken;
+    // QDateTime m_expireTime;
+
+    // // 与服务器连接成功时调用
+    // void onConnected()
+    // {
+    //     qDebug() << "Connected to server";
+    // }
+
+    // // 与服务器断开连接时调用
+    // void onDisconnected()
+    // {
+    //     qDebug() << "Disconnected from server";
+    // }
+
+    // // 接收到服务器发来的数据时调用
+    // void onReadyRead()
+    // {
+    //     QByteArray data = m_socket->readAll();
+    //     QString message = QString::fromUtf8(data);
+    //     m_textEdit->append(message);
+    // }
+
+    // // 获取访问令牌
+    // void getAccessToken()
+    // {
+    //     // 构造HTTP请求
+    //     QUrl url("https://openapi.xfyun.cn/v2/token");
+    //     QNetworkRequest request(url);
+    //     request.setHeader(QNetworkRequest::ContentTypeHeader, "application/x-www-form-urlencoded");
+    //     QString auth = QString("%1:%2").arg(m_apiKey).arg(m_apiSecret).toUtf8().toBase64();
+    //     request.setRawHeader("Authorization", QString("Basic %1").arg(auth).toUtf8());
+
+    //     // 发送HTTP请求
+    //     QNetworkAccessManager manager;
+    //     QNetworkReply* reply = manager.post(request, QString("grant_type=client_credentials&client_id=%1&client_secret=%2").arg(m_appId).arg(m_apiSecret).toUtf8());
+    //     QEventLoop loop;
+    //     connect(reply, &QNetworkReply::finished, &loop, &QEventLoop::quit);
+    //     loop.exec();
+
+    //     // 解析HTTP响应
+    //     if (reply->error() == QNetworkReply::NoError)
+    //     {
+    //         QByteArray responseData = reply->readAll();
+    //         QJsonDocument jsonDocument = QJsonDocument::fromJson(responseData);
+    //         m_accessToken = jsonDocument.object().value("access_token").toString();
+    //         int expiresIn = jsonDocument.object().value("expires_in").toInt();
+    //         m_expireTime = QDateTime::currentDateTime().addSecs(expiresIn);
+    //     }
+    //     else
+    //     {
+    //         qDebug() << "Failed to get access token: " << reply->errorString();
+    //     }
+
+    //     // 释放HTTP响应
+    //     reply->deleteLater();
+    // }
+
+    // // 调用讯飞星火模型获取回答
+    // QString getAnswer(const QString& question)
+    // {
+    //     // 检查访问令牌是否过期
+    //     if (QDateTime::currentDateTime() >= m_expireTime)
+    //     {
+    //         getAccessToken();
+    //     }
+
+    //     // 构造HTTP请求
+    //     QUrl url("https://openai.xfyun.cn/v2/aiui");
+    //     QNetworkRequest request(url);
+    //     request.setHeader(QNetworkRequest::ContentTypeHeader, "application/x-www-form-urlencoded");
+    //     request.setRawHeader("Authorization", QString("Bearer %1").arg(m_accessToken).toUtf8());
+
+    //     QJsonObject json;
+    //     json.insert("scene", "main");
+    //     json.insert("userid", "123456");
+    //     json.insert("auth_id", "123456");
+    //     json.insert("text", question);
+    //     QJsonDocument jsonDocument(json);
+    //     QByteArray postData = jsonDocument.toJson(QJsonDocument::Compact);
+
+    //     // 发送HTTP请求
+    //     QNetworkAccessManager manager;
+    //     QNetworkReply* reply = manager.post(request, postData);
+    //     QEventLoop loop;
+    //     connect(reply, &QNetworkReply::finished, &loop, &QEventLoop::quit);
+    //     loop.exec();
+
+    //     // 解析HTTP响应
+    //     QString answer;
+    //     if (reply->error() == QNetworkReply::NoError)
+    //     {
+    //         QByteArray responseData = reply->readAll();
+    //         QJsonDocument jsonDocument = QJsonDocument::fromJson(responseData);
+    //         QJsonObject jsonObject = jsonDocument.object();
+    //         if (jsonObject.contains("data"))
+    //         {
+    //             QJsonObject data = jsonObject.value("data").toObject();
+    //             QJsonArray answerArray = data.value("answer").toArray();
+    //             for (int i = 0; i < answerArray.size(); i++)
+    //             {
+    //                 QJsonObject answerObject = answerArray.at(i).toObject();
+    //                 if (answerObject.contains("text"))
+    //                 {
+    //                     answer += answerObject.value("text").toString() + " ";
+    //                 }
+    //             }
+    //         }
+    //     }
+    //     else
+    //     {
+    //         qDebug() << "Failed to get answer: " << reply->errorString();
+    //     }
+
+    //     // 释放HTTP响应
+    //     reply->deleteLater();
+
+    //     return answer.trimmed();
+    // }
 
 
 

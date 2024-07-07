@@ -20,6 +20,7 @@ DEPENDPATH += $$PWD/OpenSSL-Win32/include
 
 SOURCES += \
     LogHandler.cpp \
+    chatclient.cpp \
     glwidget.cpp \
     joy_thread.cpp \
     joystick.cpp \
@@ -33,6 +34,7 @@ SOURCES += \
 
 HEADERS += \
     LogHandler.h \
+    chatclient.h \
     dialog.h \
     glwidget.h \
     joy_thread.h \

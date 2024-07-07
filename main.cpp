@@ -5,6 +5,8 @@
 #include <QTime>
 #include <QPushButton>
 #include"mainwindow.h"
+#include "chatclient.h"
+
 int main(int argc, char *argv[])
 {
     qDebug()<<"QSslSocket="<<QSslSocket::sslLibraryBuildVersionString();
@@ -46,6 +48,9 @@ int main(int argc, char *argv[])
 
     // [[4]] 程序结束时释放 LogHandler 的资源，例如刷新并关闭日志文件
     LogHandler::Get().uninstallMessageHandler();
+
+    ChatClient client;
+    client.show();
 
     MainWindow mw;
     Dialog w;

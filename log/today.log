@@ -1,31 +1,24 @@
-2024-07-06 12:37:47 - [INFO ] (dialog.cpp:2002, virtual void Dialog::keyPressEvent(QKeyEvent*)): 16777251
-2024-07-06 12:38:15 - [INFO ] (dialog.cpp:2031, virtual void Dialog::keyReleaseEvent(QKeyEvent*)): 65
-2024-07-06 12:38:15 - [INFO ] (dialog.cpp:2031, virtual void Dialog::keyReleaseEvent(QKeyEvent*)): 73
-2024-07-06 12:38:16 - [INFO ] (dialog.cpp:2031, virtual void Dialog::keyReleaseEvent(QKeyEvent*)): 88
-2024-07-06 12:38:16 - [INFO ] (dialog.cpp:2031, virtual void Dialog::keyReleaseEvent(QKeyEvent*)): 16777219
-2024-07-06 12:38:16 - [INFO ] (dialog.cpp:2031, virtual void Dialog::keyReleaseEvent(QKeyEvent*)): 16777219
-2024-07-06 12:38:16 - [INFO ] (dialog.cpp:2031, virtual void Dialog::keyReleaseEvent(QKeyEvent*)): 16777219
-2024-07-06 12:38:16 - [INFO ] (dialog.cpp:2031, virtual void Dialog::keyReleaseEvent(QKeyEvent*)): 16777219
-2024-07-06 12:38:16 - [INFO ] (dialog.cpp:2002, virtual void Dialog::keyPressEvent(QKeyEvent*)): 16777249
-2024-07-06 12:38:17 - [INFO ] (dialog.cpp:2031, virtual void Dialog::keyReleaseEvent(QKeyEvent*)): 16777249
-2024-07-06 12:38:18 - [INFO ] (dialog.cpp:2031, virtual void Dialog::keyReleaseEvent(QKeyEvent*)): 16777219
-2024-07-06 12:38:18 - [INFO ] (dialog.cpp:2031, virtual void Dialog::keyReleaseEvent(QKeyEvent*)): 16777219
-2024-07-06 12:38:18 - [INFO ] (dialog.cpp:2031, virtual void Dialog::keyReleaseEvent(QKeyEvent*)): 16777219
-2024-07-06 12:38:18 - [INFO ] (dialog.cpp:2031, virtual void Dialog::keyReleaseEvent(QKeyEvent*)): 16777219
-2024-07-06 12:38:18 - [INFO ] (dialog.cpp:2031, virtual void Dialog::keyReleaseEvent(QKeyEvent*)): 16777219
-2024-07-06 12:38:20 - [DEBUG] (dialog.cpp:2097, void Dialog::on_pushButton_generate_clicked()): Keyword:  "爱心"
-2024-07-06 12:38:23 - [INFO ] (dialog.cpp:2002, virtual void Dialog::keyPressEvent(QKeyEvent*)): 16777251
-2024-07-06 12:38:26 - [INFO ] (dialog.cpp:2002, virtual void Dialog::keyPressEvent(QKeyEvent*)): 16777251
-2024-07-06 12:39:42 - [INFO ] (dialog.cpp:2002, virtual void Dialog::keyPressEvent(QKeyEvent*)): 16777251
-2024-07-06 12:41:17 - [DEBUG] (main.cpp:37, int main(int, char**)): Hello
-2024-07-06 12:41:17 - [DEBUG] (main.cpp:38, int main(int, char**)): 当前时间是:  "12:41:17"
-2024-07-06 12:41:17 - [INFO ] (main.cpp:39, int main(int, char**)): "God bless you!"
-2024-07-06 12:42:21 - [DEBUG] (main.cpp:37, int main(int, char**)): Hello
-2024-07-06 12:42:21 - [DEBUG] (main.cpp:38, int main(int, char**)): 当前时间是:  "12:42:21"
-2024-07-06 12:42:21 - [INFO ] (main.cpp:39, int main(int, char**)): "God bless you!"
-2024-07-06 12:45:24 - [DEBUG] (main.cpp:37, int main(int, char**)): Hello
-2024-07-06 12:45:24 - [DEBUG] (main.cpp:38, int main(int, char**)): 当前时间是:  "12:45:24"
-2024-07-06 12:45:24 - [INFO ] (main.cpp:39, int main(int, char**)): "God bless you!"
-2024-07-06 22:02:32 - [DEBUG] (main.cpp:37, int main(int, char**)): Hello
-2024-07-06 22:02:32 - [DEBUG] (main.cpp:38, int main(int, char**)): 当前时间是:  "22:02:32"
-2024-07-06 22:02:32 - [INFO ] (main.cpp:39, int main(int, char**)): "God bless you!"
+2024-07-07 00:08:28 - [DEBUG] (main.cpp:37, int main(int, char**)): Hello
+2024-07-07 00:08:28 - [DEBUG] (main.cpp:38, int main(int, char**)): 当前时间是:  "00:08:28"
+2024-07-07 00:08:28 - [INFO ] (main.cpp:39, int main(int, char**)): "God bless you!"
+2024-07-07 00:23:49 - [DEBUG] (main.cpp:37, int main(int, char**)): Hello
+2024-07-07 00:23:49 - [DEBUG] (main.cpp:38, int main(int, char**)): 当前时间是:  "00:23:49"
+2024-07-07 00:23:49 - [INFO ] (main.cpp:39, int main(int, char**)): "God bless you!"
+2024-07-07 14:23:26 - [DEBUG] (main.cpp:39, int main(int, char**)): Hello
+2024-07-07 14:23:26 - [DEBUG] (main.cpp:40, int main(int, char**)): 当前时间是:  "14:23:26"
+2024-07-07 14:23:26 - [INFO ] (main.cpp:41, int main(int, char**)): "God bless you!"
+2024-07-07 14:25:19 - [DEBUG] (main.cpp:39, int main(int, char**)): Hello
+2024-07-07 14:25:19 - [DEBUG] (main.cpp:40, int main(int, char**)): 当前时间是:  "14:25:19"
+2024-07-07 14:25:19 - [INFO ] (main.cpp:41, int main(int, char**)): "God bless you!"
+2024-07-07 14:26:47 - [DEBUG] (main.cpp:39, int main(int, char**)): Hello
+2024-07-07 14:26:47 - [DEBUG] (main.cpp:40, int main(int, char**)): 当前时间是:  "14:26:47"
+2024-07-07 14:26:47 - [INFO ] (main.cpp:41, int main(int, char**)): "God bless you!"
+2024-07-07 14:32:34 - [DEBUG] (main.cpp:39, int main(int, char**)): Hello
+2024-07-07 14:32:34 - [DEBUG] (main.cpp:40, int main(int, char**)): 当前时间是:  "14:32:34"
+2024-07-07 14:32:34 - [INFO ] (main.cpp:41, int main(int, char**)): "God bless you!"
+2024-07-07 14:37:34 - [DEBUG] (main.cpp:39, int main(int, char**)): Hello
+2024-07-07 14:37:34 - [DEBUG] (main.cpp:40, int main(int, char**)): 当前时间是:  "14:37:34"
+2024-07-07 14:37:34 - [INFO ] (main.cpp:41, int main(int, char**)): "God bless you!"
+2024-07-07 16:22:24 - [DEBUG] (main.cpp:39, int main(int, char**)): Hello
+2024-07-07 16:22:24 - [DEBUG] (main.cpp:40, int main(int, char**)): 当前时间是:  "16:22:24"
+2024-07-07 16:22:24 - [INFO ] (main.cpp:41, int main(int, char**)): "God bless you!"
