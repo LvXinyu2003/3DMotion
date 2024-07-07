@@ -1,7 +1,9 @@
 # 源程序
 - 源程序来源于中国地质大学（武汉）三维运控实习研究生学长团队，本项目是在学长基础上复现的正运动控制器的上位机程序，并加入了一些新的功能。
-- 语音识别来自百度智能云https://cloud.baidu.com/，QT环境调用百度API学习自这篇博客：https://blog.csdn.net/m0_73431159/article/details/138586819
-- 大模型来自讯飞星火https://xinghuo.xfyun.cn/%EF%BC%89，Qt环境调用讯飞星火API学习自这篇博客：https://blog.csdn.net/feng1790291543/article/details/131537415
+- 语音识别来自百度智能云https://cloud.baidu.com/
+- QT环境调用百度API学习自这篇博客：https://blog.csdn.net/m0_73431159/article/details/138586819
+- 大模型来自讯飞星火https://xinghuo.xfyun.cn/%EF%BC%89
+- Qt环境调用讯飞星火API学习自这篇博客：https://blog.csdn.net/feng1790291543/article/details/131537415
 
 # 新增功能
 1. 语音控制：语音控制三个方向运动
